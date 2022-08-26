@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+    
+}
+
+main#container {
+    width: 900px;
+    height: 70vh;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    left: 20%;
+    top: 15%;
+    display: flex;   
+    border-radius: 15px;
+}
+
+section#block-esq {
+    position: relative;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#56A68F ;
+    color: white;
+    border-radius: 15px 0 0 15px;
+    padding: 2rem;
+    text-align: center;
+   
+}
+#block-esq h2 {
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+
+#block-esq p {
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+
+#block-esq input {
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    background: none;
+    color:#f2f2f2;
+    cursor: pointer;
+}
+
+#block-esq input:hover {
+    background-color: #f2f2f2;
+    color: #56A68F;
+    border: #56A68F;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+aside#block-dir {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 0 15px 15px 0;
+    color: #56A68F;
+    
+}
+
+
+aside#block-dir h2{
+    font-size: 25pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+figure#social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-right: 50px;
+   
+}
+
+figure#social-media li {
+    
+    margin: auto;
+}
+figure#social-media a {
+    text-decoration: none;
+    color: #56A68F;   
+    
+}
+
+aside#block-dir p {
+    font-weight: lighter;
+}
+aside#block-dir form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+aside#block-dir input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;   
+  margin: 5px;
+  padding: 13px;
+  width: 55%;
+  background: #f2f2f2;
+  border: none;
+  color: #56A68F;
+  outline: none;  
+}
+
+form#form button {
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    background-color: #56A68F;
+    color: #fff;
+    border-radius: 25px;
+    
+    
+}
+
+form#form button:hover {
+    background-color: #f2f2f2;
+    color: #56A68F;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.label-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin: 9px;
+    width: 55%;
+   
+}

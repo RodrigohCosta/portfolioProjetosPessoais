@@ -1,0 +1,31 @@
+Css - FLEXBOX
+
+	O QUE É? 
+	
+São comandos que servem para organizar itens dentro de um elemento 
+pai, normalmente chamado de container
+
+ex.:
+	<div class="container">
+     		<div class="item item1"></div>
+     		<div class="item item2"></div>
+     		<div class="item item3"></div>
+	</div>
+
+
+	ALINHAMENTO DOS EIXOS
+
+Eixo principal - Horizontal
+	inicio	- Esquerda		final - Direita
+
+		-----------------> (da esqueda para a direita)
+
+Eixo transversão - Vertical
+	Inicio	- Cima		Final - baixo		
+
+		| De
+		| cima 
+		| para 
+		v baixo
+
+LUCIENE VIRGINIA SILVINO DOS SANTOS

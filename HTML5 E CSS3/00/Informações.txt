@@ -1,0 +1,28 @@
+Informações - tela de login
+
+
+fontes:
+
+Cores:
+
+#D6CAAD - Login. usuário; senha; linhas
+#353B50 - fundo do formulário
+#454D6B - fundo do body
+#A13854 - botão de login
+
+
+Imagens:
+
+Fundos:
+
+
+SITES:
+
+	- fontes	=> google fontes mesmo
+
+	- Cores	=> API colorzilla
+
+	- Imagens	=>
+
+	- Fundos	=>
+

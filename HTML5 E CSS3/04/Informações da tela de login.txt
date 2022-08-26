@@ -1,0 +1,22 @@
+Informações - tela de login
+
+
+fontes:
+
+Cores:
+
+Imagens:
+
+Fundos:
+
+
+SITES:
+
+	- fontes	=> google fontes mesmo
+
+	- Cores	=> API colorzilla
+
+	- Imagens	=>
+
+	- Fundos	=>
+

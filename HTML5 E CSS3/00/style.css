@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;900&family=Poppins:wght@200;500&display=swap');
+
+body{
+    background-color:#454D6B ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color:#ffffff ;
+}
+
+section#formulario {
+    background-color: #353B50 ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    padding: 3rem;
+    width: max-content;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.title h1::after {
+   content: '';
+   display: block;
+   width: 4.7rem;
+   height: 0.03rem;
+   background-color: #ffffff;
+   margin-bottom: 5px;
+   position: absolute;   
+}
+
+#input-group   {
+    margin-top: 3rem;
+   
+
+}
+
+#input-group label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+#input-group a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+div.input{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items:baseline;
+
+}
+
+div.input input {
+    background-color: #353B50;
+    width: 20rem;
+    border: 1px solid white;
+    border-right: hidden;
+    border-left: hidden;
+    border-top: hidden;   
+    
+   }
+
+div.input button{
+    background-color:#A13854 ;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+div.input a {
+    color: white;
+    text-decoration: none;
+}

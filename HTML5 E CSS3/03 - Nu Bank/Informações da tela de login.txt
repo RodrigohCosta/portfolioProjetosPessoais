@@ -1,0 +1,24 @@
+Informações - tela de login
+
+
+fontes: 	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+​		font-family: 'Roboto', sans-serif;	
+
+Cores:  	#81259D; #000000
+
+Imagens:
+
+Fundos:
+
+
+SITES:
+
+	- fontes	=> google fontes mesmo
+
+	- Cores	=> API colorzilla
+
+	- Imagens	=>
+
+	- Fundos	=>
+
