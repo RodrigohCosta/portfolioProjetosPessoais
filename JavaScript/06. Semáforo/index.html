@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Semáforo</title>
+</head>
+<body>
+    <main id="container">
+        <figure>
+            <img id='sinal' src="/img/desligado.png" alt="semaforo">
+        </figure>
+        <section id="semaforo">
+            <button id="verde" 
+            onclick = 'sVerde()' alt="verde">Verde</button>
+            <button id="amarelo" onclick = 'sAmarelo()' alt="amarelo ">Amarelo</button>
+            <button id="vermelho" onclick = 'sVermelho()' alt="vermelho">Vermelho</button>            
+            <button id="automatico" onclick="autom()" alt="auto">Auto</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

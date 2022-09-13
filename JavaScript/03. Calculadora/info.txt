@@ -1,0 +1,19 @@
+degrade:
+
+ - c1: #B6E1F2
+
+ - c2: #59C1D9
+
+ - c3: #9ACDD9
+
+ - c4: #CEECF2
+
+ - c5: #5FCDD9
+
+font family:
+P/importar:
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Poppins:ital,wght@0,900;1,400&display=swap');
+
+P/ definir:
+ font-family: 'Inter', sans-serif;
+ font-family: 'Poppins', sans-serif;
