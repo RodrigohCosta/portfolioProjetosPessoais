@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@400;700&display=swap');
+
+* {
+   
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Aboreto', cursive;
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 100%;
+    color: #BF8275;
+   
+   
+    
+}
+
+hr {
+    position: relative;    
+    left: -50px;
+    width: 1520px;
+    border: none;
+    border-bottom: 1px solid #BF8275;
+}
+#container {
+    margin: 3em;
+}
+
+#topo {
+    position: relative;
+    top: -20px;
+}
+#topo img {
+    margin-left: 100px;
+    width: 150px;
+}
+
+/* Barra de meno, ao lado da LOGO e o BUSCADOR */
+
+div#menu {
+    position: absolute;
+    top: 100px;
+    right: 4rem;
+    top: 3.5rem;
+}
+
+#menu-group ul {
+    position: absolute;
+    text-transform: uppercase;
+    list-style: none;
+    right: 4rem;
+    top: 2rem;
+    
+}
+
+#menu-group li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#menu-group a:hover{
+    color: gray;
+}
+
+
+#menu-group a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #BF8275;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+#menu-group i {
+    margin-bottom: 10px;        
+}
+
+#menu-group input {
+    position: absolute;
+    left:25rem;
+    top: 3.5rem;
+    padding: 1rem;
+    width: 32rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    color: gray;   
+}
+
+/*fim do menu e inicio da barra de navegação*/
+
+#barra-nav ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    list-style: none;
+    left: 0rem;
+    top: 11rem;
+}
+
+#barra-nav li:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* fim barra de navegação inicio banner*/
+
+#banner-show{
+    overflow: hidden;
+}
+
+#banner-list {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns: 1fr;
+    width: 300%;
+    --total-itens: 3;
+    width: calc(--total-itens) *100%;
+    position: relative;
+    left: calc(var(--selected-item)) *-100%;
+    --selected-item: 0;
+    bottom: -20px;
+}
+
+#banner-list img {
+    width: 1500px;
+    height: 500px;
+}
+

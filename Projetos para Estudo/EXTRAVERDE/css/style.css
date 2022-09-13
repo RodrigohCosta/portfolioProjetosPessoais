@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Poppins:ital,wght@0,900;1,400&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;   
+ 
+}
+
+main#container {
+    background-color: #fff;
+    width: 1200px;   
+    color: black;
+    margin-left: 200px ;
+}
+/* Parte referente as informações do topo do site*/
+
+section#topo {
+    display: flex;
+    justify-content: right;
+
+}
+
+section#topo ul {   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section#topo li {
+    margin: 0 1rem 1rem 0;
+    list-style: none;
+}
+
+section#topo a {
+    text-decoration: none;
+    color: #F23545;
+    font-size: 10pt;
+}
+
+
+/* Parte referente as informações na area da logomarca*/
+
+section#buscador {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#buscador img {
+    width: 250px;
+    height: 70px;    
+}
+
+section#buscador input{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    outline-style: none;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-left: 50px;
+    color: gray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+section#buscador label {
+    position: absolute;
+    left: 39.5%;
+    border: 1px solid #F23545;
+    padding: 6px;
+    border-radius: 50px;
+    color: #f2f2f2;
+    background-color: #F23545;
+}
+
+section#buscador a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F23545; 
+}
+
+/*barra de navegação superior*/
+
+nav#categoria ul{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: flex-start;    
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+nav#categoria li {
+    margin: 5px;
+    font-weight: bold;
+}
+
+nav#categoria a {
+    text-decoration: none;
+    color: #F2f2f2;
+    background-color: #03A64A;
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+nav#categoria a:hover {
+    color: #F23545;
+    background-color: #f2f2f2;
+    transition: 0.1s;
+
+}
+
+/* Criação do Banner de promoção*/
+
+figure#image-banner {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure#image-banner img {
+    width: 1200px;
+}
+
+figure#image-banner button {
+    background-image: linear-gradient(to left, #03A64A,#038C4C, #F23545);
+    width: 225px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px;
+    border-radius: 45px;
+    border: none;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+    color: white;
+    cursor: pointer;
+}
+
+figure#image-banner p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    margin: 0px;
+}
+
+section#content p {
+    font-weight: bolder;
+    color: gray;
+}
+
+section#content div {
+    display: flex;
+    width: 1200px;
+    height: 100vh;
+}
+
+section#content img {
+    width: 200px;
+    height: 200px;
+}
+
+/*Criação de produtos nos destaques */
+
+ul#ofertas-list {
+    width: 1170px;
+    height: 150vh;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#ofertas-list li {
+    float: left;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    border: 1px solid #038C4C;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+ul#ofertas-list li#produto_01{
+    background: url(/img/Alho.jpg) no-repeat;
+}
+
+li#produto_01 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#ofertas-list li#produto_02{
+    background: url(/img/BatataInglesa.jpg) no-repeat;
+}
+
+li#produto_02 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#ofertas-list li#produto_03{
+    background: url(/img/cebola.jpg) no-repeat;
+}
+
+li#produto_03 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#ofertas-list li#produto_04{
+    background: url(/img/Tomate.jpg) no-repeat;
+}
+
+li#produto_04 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#ofertas-list li#produto_05{
+    background: url(/img/FeijãoVerde.jpg) no-repeat;
+}
+
+li#produto_05 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#ofertas-list li#produto_06{
+    background: url(/img/Macaxeira.jpg) no-repeat;
+}
+
+li#produto_06 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+ul#ofertas-list li#produto_07{
+    background: url(/img/LaranjaPokan.jpg) no-repeat;
+}
+
+li#produto_07 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+ul#ofertas-list li#produto_08{
+    background: url(/img/Coentro.jpg) no-repeat;
+}
+
+li#produto_08 p, button, input{
+    position: relative;
+    top: 60%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#ofertas-list button#text {
+    margin-bottom: 5px;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    
+}
+
+/*Criação do RODAPE*/
+
+hr {
+    position: relative;    
+    right: 500px;
+    top: 200px;
+    width: 1819px;
+    border: none;
+    border-bottom: 1px solid #038C4C;
+}
+
+nav#institucional ul{
+    position: absolute;
+    top: 1900px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: flex-start; 
+    width: 1170px;
+    list-style: none;
+    padding: 1rem;
+}
+
+nav#institucional li{
+    margin: 16px;
+}
+
+nav#institucional a{
+    text-decoration: none;
+    font-size:10pt;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+nav#institucional a:hover{
+    color: #F23545;
+}
+
+nav#institucional p{
+    position: absolute;
+    top: 2020px;
+    left: 230px;
+}
+
+
