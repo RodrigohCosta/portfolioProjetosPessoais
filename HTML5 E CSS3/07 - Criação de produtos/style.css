@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#container {
+    width: 1200px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ul#box-group {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+ul#box-group li {
+    float: left;
+    width: 250px;
+    height: 400px;
+    border: 1px solid #038C4C;
+    margin: 10px;
+    border-radius: 15px;
+      
+}
+
+ul#box-group li#produto_01 {
+    background: url(/img/Cebola.jpg) no-repeat;  
+}
+
+li#produto_01 p, button, input{
+    position: relative;
+    top: 70%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#box-group li#produto_02 {
+    background: url(/img/Tomate.jpg) no-repeat; 
+}
+
+li#produto_02 p, button, input{
+    position: relative;
+    top: 70%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#box-group li#produto_02 {
+    background: url(/img/Tomate.jpg) no-repeat;
+    
+    
+}
+
+li#produto_03 p, button, input{
+    position: relative;
+    top: 70%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#box-group li#produto_03 {
+    background: url(/img/BatataInglesa.jpg) no-repeat;
+    
+    
+}
+
+li#produto_03 p, button, input{
+    position: relative;
+    top: 70%;
+    margin-left: 20px;
+    width: 50px;
+}
+ul#box-group li#produto_04 {
+    background: url(/img/Coentro.jpg) no-repeat;
+    
+    
+}
+
+li#produto_04 p, button, input{
+    position: relative;
+    top: 70%;
+    margin-left: 20px;
+    width: 50px;
+}
+
+ul#box-group button#add {
+    margin-top: 8px ;
+    margin-left: 20px;
+    width: 83%;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);   
+}
